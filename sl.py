@@ -1,8 +1,4 @@
 import streamlit as st
-from langchain.llms import Ollama
-from langchain.chains import ConversationChain
-from langchain.memory import ConversationBufferMemory
-from langchain.callbacks import StreamlitCallbackHandler
 
 # Initialize Ollama
 llm = Ollama(model="codellama")
